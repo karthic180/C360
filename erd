@@ -1,0 +1,20 @@
+# 🧱 ERD (Entity Relationship Design)
+
+### Core Entities
+
+- Customer
+- Address
+- Order
+- OrderItem
+- Product
+- Payment
+
+### Relationships
+
+- Customer → Orders (1 to Many)
+- Customer → Address (1 to Many)
+- Order → OrderItems (1 to Many)
+- Order → Payment (1 to 1)
+- Product → OrderItems (1 to Many)
+
+---
