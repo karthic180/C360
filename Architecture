@@ -1,0 +1,15 @@
+Architecture (Medallion Design)
+
+```
+Source Systems (API / CRM / ERP)
+            ↓
+      ETL (Python / Fabric)
+            ↓
+   Bronze Layer (Raw Data)
+            ↓
+   Silver Layer (Cleaned Data)
+            ↓
+   Gold Layer (Star Schema Model)
+            ↓
+   Power BI / Analytics Layer
+```
