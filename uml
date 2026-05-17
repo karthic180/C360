@@ -1,0 +1,57 @@
+UML Class Diagram
+
+This UML model represents the system-level object relationships.
+
+```
++-------------------+
+| Customer          |
++-------------------+
+| CustomerID        |
+| FullName          |
+| Email             |
+| Phone             |
++-------------------+
+
+        1
+        |
+        ▼
+
++-------------------+
+| Order             |
++-------------------+
+| OrderID           |
+| OrderDate         |
+| Status            |
+| TotalAmount       |
++-------------------+
+
+        1
+        |
+        ▼
+
++-------------------+
+| OrderItem         |
++-------------------+
+| Quantity          |
+| UnitPrice         |
++-------------------+
+
+        ▲
+        |
++-------------------+
+| Product           |
++-------------------+
+| ProductID         |
+| ProductName       |
+| Category          |
+| Price             |
++-------------------+
+
++-------------------+
+| Payment           |
++-------------------+
+| PaymentID         |
+| Method            |
+| Status            |
++-------------------+
+```
