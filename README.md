@@ -1,10 +1,10 @@
-# 🧩 Customer 360 Data Architecture Project
+# Customer 360 Data Architecture Project
 
 A complete **end-to-end Data Architecture and Data Modelling project** designed to simulate a real-world enterprise Customer 360 system. This project demonstrates **data modelling, ERD design, UML modelling, ETL architecture, and analytics-ready data design**.
 
 ---
 
-# 🚀 Project Overview
+#  Project Overview
 
 The Customer 360 system consolidates customer, order, product, and payment data into a unified model to enable:
 
@@ -16,7 +16,7 @@ The Customer 360 system consolidates customer, order, product, and payment data 
 
 ---
 
-# 🏗️ Architecture (Medallion Design)
+#  Architecture (Medallion Design)
 
 ```
 Source Systems (API / CRM / ERP)
@@ -34,7 +34,7 @@ Source Systems (API / CRM / ERP)
 
 ---
 
-# 🧱 ERD (Entity Relationship Design)
+#  ERD (Entity Relationship Design)
 
 ### Core Entities
 
@@ -67,7 +67,7 @@ Customer ───< Order ───< OrderItem >─── Product
 
 ---
 
-# 🧠 UML Class Diagram
+#  UML Class Diagram
 
 This UML model represents the system-level object relationships.
 
@@ -140,7 +140,7 @@ This UML model represents the system-level object relationships.
 
 ---
 
-# ⚙️ Technologies Used
+#  Technologies Used
 
 - SQL (PostgreSQL / SQLite)
 - Python (ETL processing)
@@ -150,7 +150,7 @@ This UML model represents the system-level object relationships.
 
 ---
 
-# 📊 Key Features
+#  Key Features
 
 ✔ Customer 360 unified model  
 ✔ Star schema design for analytics  
@@ -161,32 +161,7 @@ This UML model represents the system-level object relationships.
 
 ---
 
-# 📁 Project Structure
-
-```
-customer-360/
-│
-├── erd/
-│   └── customer_erd.png
-│
-├── uml/
-│   └── class_diagram.png
-│
-├── architecture/
-│   └── medallion_architecture.png
-│
-├── sql/
-│   └── create_tables.sql
-│
-├── etl/
-│   └── pipeline.py
-│
-└── README.md
-```
-
----
-
-# 🎯 Business Value
+#  Business Value
 
 This system enables:
 
@@ -198,7 +173,7 @@ This system enables:
 
 ---
 
-# 🚀 Future Enhancements
+#  Future Enhancements
 
 - Real-time streaming integration
 - Machine learning customer segmentation
@@ -208,7 +183,6 @@ This system enables:
 
 ---
 
-# 👤 Author
+#  Author
 
-Built by **Data Architect Portfolio Project**  
 Focused on Data Engineering, BI, and Data Architecture design principles.
